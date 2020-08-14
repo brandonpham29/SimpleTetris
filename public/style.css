@@ -1,0 +1,71 @@
+.grid {
+    margin-left: 30%;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7cac9;
+}
+
+
+.startButton {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+
+body {
+    background: url('space.jpg');
+    background-size: 20%;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.grid div{
+    outline: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: blue;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7cac9;
+}
+
+.mini-grid div{
+    outline: 1px solid black;
+    height: 20px;
+    width: 20px;
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
